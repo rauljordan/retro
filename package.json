@@ -10,7 +10,7 @@
     "start": "npm run build && cross-env NODE_ENV=production babel-node ./server.js",
     "stats": "rimraf dist && webpack --config ./webpack.config.prod.js --json > stats.json"
   },
-  "devDependencies": {
+  "dependencies": {
     "autoprefixer": "^6.3.7",
     "babel-cli": "^6.10.1",
     "babel-core": "^6.10.4",
@@ -39,9 +39,7 @@
     "webpack": "^1.13.1",
     "webpack-bundle-analyzer": "^2.2.1",
     "webpack-dev-middleware": "^1.6.1",
-    "webpack-hot-middleware": "^2.12.2"
-  },
-  "dependencies": {
+    "webpack-hot-middleware": "^2.12.2",
     "express": "^4.14.0",
     "isomorphic-fetch": "^2.2.1",
     "react": "^15.4.2",
