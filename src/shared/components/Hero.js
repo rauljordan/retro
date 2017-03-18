@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Hero = styled.div`
-  background-image: url('/hero.gif');
+  background-image: url('/public/hero.gif');
   border-radius: 7px;
   padding-top: 80px;
   padding-bottom: 80px;

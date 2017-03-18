@@ -13,9 +13,9 @@ module.exports = {
     contentBase: './dist'
   },
 	output: {
-		path: path.resolve(__dirname, 'dist'),
+		path: path.resolve(__dirname, 'public'),
 		filename: 'bundle.js',
-		publicPath: '/'
+		publicPath: '/public/'
 	},
 	plugins: [
 		new webpack.HotModuleReplacementPlugin(),
@@ -28,8 +28,7 @@ module.exports = {
 		}),
 		new CopyWebpackPlugin([
 			{
-				from: path.resolve(__dirname, 'public'),
-				to: path.resolve(__dirname, 'dist')
+				from: path.resolve(__dirname, 'public')
 			}
 		])
 	],

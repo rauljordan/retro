@@ -8,6 +8,7 @@
     "dev": "cross-env NODE_ENV=development babel-node ./server.js",
     "build": "rimraf dist && webpack -p --progress --config  ./webpack.config.prod.js",
     "start": "npm run build && cross-env NODE_ENV=production babel-node ./server.js",
+    "serve": "cross-env NODE_ENV=production babel-node ./server.js",
     "stats": "rimraf dist && webpack --config ./webpack.config.prod.js --json > stats.json"
   },
   "dependencies": {

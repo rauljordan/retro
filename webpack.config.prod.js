@@ -7,9 +7,9 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 module.exports = {
 	entry: path.resolve(__dirname, 'src'),
 	output: {
-		path: path.resolve(__dirname, 'dist'),
+		path: path.resolve(__dirname, 'public'),
 		filename: 'bundle.js',
-		publicPath: '/'
+		publicPath: '/public/'
 	},
 	devtool: 'cheap-module-source-map',
 	plugins: [
@@ -37,12 +37,6 @@ module.exports = {
 		new webpack.optimize.AggressiveMergingPlugin(),
 		new webpack.optimize.OccurrenceOrderPlugin(),
     new webpack.optimize.DedupePlugin(),
-		new CopyWebpackPlugin([
-			{
-				from: path.resolve(__dirname, 'public'),
-				to: path.resolve(__dirname, 'dist')
-			}
-		]),
 		new ExtractTextPlugin('bundle.css', {
 			allChunks: true
 		}),

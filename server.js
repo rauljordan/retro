@@ -25,6 +25,10 @@ if (process.env.NODE_ENV === 'development') {
 	app.use(express.static(path.resolve(__dirname, 'src')));
 }
 
+
+const publicPath = express.static(path.join(__dirname, './public'));
+app.use('/public', publicPath);
+
 app.get('*', ssr);
 
 app.listen(process.env.PORT || 3000, '0.0.0.0', (err) => {
