@@ -40,9 +40,10 @@ export default (req, res) => {
 					<!doctype html>
 					<html>
 						<header>
+							<title>Retro</title>
 							<meta charset="utf-8">
 							<meta name="viewport" content="width=device-width, initial-scale=1">
-							<link href="/bundle.css" rel="stylesheet"/>
+							<link href="/style.css" rel="stylesheet"/>
 						</header>
 						<body>
 							<div id="app">${content}</div>
