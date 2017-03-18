@@ -1,7 +1,7 @@
 {
-  "name": "oceanofvoices",
+  "name": "retro",
   "version": "2.0.0",
-  "description": "Ocean of Voices Website",
+  "description": "Discover Retro Nostalgia",
   "main": "src/index.js",
   "scripts": {
     "test": "jest --watchAll",

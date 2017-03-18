@@ -2,3 +2,14 @@ body, html {
   font-family: 'lato', sans-serif;
   font-size: 18px;
 }
+
+.intro {
+  margin-top: 50px;
+}
+.intro > p {
+  width: 50%;
+}
+
+span {
+  color: #1B28DD;
+}
