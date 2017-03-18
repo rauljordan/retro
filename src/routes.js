@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, IndexRoute } from 'react-router';
-import Layout from './components/layout';
-import Home from './components/home';
+import Layout from './components/Layout';
+import Home from './components/Home';
 
 export default (
   <Route path="/" component={Layout}>
