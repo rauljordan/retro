@@ -20,6 +20,7 @@ export default (req, res) => {
 							<title>Ocean of Voices</title>
 							<meta charset="utf-8">
 					    <meta name="viewport" content="width=device-width, initial-scale=1">
+							<link href="/style.css" rel="stylesheet"/>
 						</header>
 						<body>
 							<div id="app"></div>
