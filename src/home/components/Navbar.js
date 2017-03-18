@@ -7,7 +7,7 @@ import Link from '../../shared/components/Link';
 function Navbar() {
   return (
     <Nav>
-    
+      <Logo src="/public/logo.svg"/>
     </Nav>
   );
 }

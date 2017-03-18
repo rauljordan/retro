@@ -2,7 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Nav = styled.div`
-  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: left;
   ul > * {
     margin-right: 20px;
   }

@@ -20,11 +20,11 @@ export default (req, res) => {
 							<title>Retro</title>
 							<meta charset="utf-8">
 					    <meta name="viewport" content="width=device-width, initial-scale=1">
-							<link href="/style.css" rel="stylesheet"/>
+							<link href="/public/style.css" rel="stylesheet"/>
 						</header>
 						<body>
 							<div id="app"></div>
-							<script src="/bundle.js"></script>
+							<script src="/public/bundle.js"></script>
 						</body>
 					</html>
 				`);

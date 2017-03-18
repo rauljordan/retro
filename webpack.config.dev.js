@@ -10,7 +10,7 @@ module.exports = {
 	],
 	devtool: 'eval',
 	devServer: {
-    contentBase: './dist'
+    contentBase: './public'
   },
 	output: {
 		path: path.resolve(__dirname, 'public'),
